@@ -60,7 +60,7 @@
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     /* background-position: 38px 1441px 25px 23px , 319px 203px 0 767px; */
     background-repeat: no-repeat;
     padding-top: 50px;
@@ -123,10 +123,9 @@ nav .menu a{
 }
 #banner-parent .banner-image{
     max-width: 584px;
-    height: 676px;
+    /* height: 676px; */
     vertical-align: middle;
-    /* margin: 161px 38px 0 978px; */
-    /* line-height: 30px; */
+    margin-bottom: -5px;
 }
 
 #about, #skills, #resume{
